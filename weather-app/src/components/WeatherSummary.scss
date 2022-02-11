@@ -1,0 +1,44 @@
+
+*{
+  box-sizing: unset;
+}
+body{
+  background-image: url('https://foreignpolicy.com/wp-content/uploads/2020/06/extreme-weather-heat-of-the-moment-CIF-social.jpg');
+}
+ol {
+    overflow: auto;
+  
+    li {
+      border-right: 1px solid rgb(151, 145, 145);
+      padding: 10px;
+      list-style-type: none;
+      display: inline-block;
+         
+     
+      margin: 5px;
+  
+      
+    }
+  }
+  strong{
+    margin-right: 10px;
+  }
+
+  input{
+     
+    margin-left: 30px !important;
+    width:90%;
+    
+    padding: 15px;
+    border-radius: 22px;
+    margin-bottom:30px;
+    margin-left:4%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+  }
+
+  label{
+    margin:50px;
+    
+    
+  }
