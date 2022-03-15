@@ -7,7 +7,7 @@ if (key === undefined) {
 }
 
 const keyQuery = `appid=${key}`
-const server = 'http://api.openweathermap.org/data/2.5';
+const server = 'https://api.openweathermap.org/data/2.5';
 
 export async function searchLocation(term: string): Promise<WeatherLocation | undefined> {
   const result = await fetch(`${server}/weather?q=${term}&${keyQuery}`);
@@ -28,7 +28,7 @@ export async function readWeather(locationId: number): Promise<Weather>{
     }
 
     export function getIconUrl(code: string): string {
-      return `http://openweathermap.org/img/wn/${code}.png`;
+      return `https://openweathermap.org/img/wn/${code}.png`;
     }   
 
     export async function readForecast(locationId: number): Promise<Weather[]> {
